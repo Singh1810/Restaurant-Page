@@ -1,0 +1,237 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#content {
+    min-width: 470px;
+    background-image: url(../src/img/background.webp);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+#content>.header {
+    background-color: #0000007d;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.header>.nav-bar {
+    display: flex;
+    height: 60px;
+
+}
+
+.nav-bar>* {
+    width: 120px;
+    background-color: #0000007d;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-bar>*:hover {
+    background-color: #ec171145;
+    cursor: pointer;
+}
+
+
+
+
+
+.body>.content {
+    background-color:#0000007d;
+    border-radius: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+    padding-left: min(90px, 10%);
+    padding-right: min(90px, 10%);
+    min-height: 100vh;
+}
+
+.body>.content>.text {
+    background-color:#ec171145;
+    color: white;
+    text-shadow: 2px 2px #9a2929;
+    margin-top: -30px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 15px rgb(66, 66, 66);
+}
+
+.content>.text>.title {
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 9px 2px 6px black;
+}
+
+.content>.text>.content {
+    font-size: 1.5rem;
+    text-shadow: 6px 2px 4px black;
+}
+
+.content>.restaurant-photo {
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0px 2px 15px rgb(66 66 66);
+    background-size: contain;
+}
+
+.info>* {
+    border-radius: 20px;
+    padding: 12px;
+    font-size: 1.3rem;
+    background-color: #58766cdb;
+    color: white;
+    box-shadow: 0px 2px 15px rgb(66, 66, 66);
+}
+
+.content>.info {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+
+/*menu page */
+
+
+
+.quote-img {
+    width: 100%;
+    height: auto;
+}
+
+
+.text.restaurant>.title {
+    text-align: center;
+    text-shadow: 9px 2px 6px black;
+}
+
+
+.menu-quote {
+    justify-content: center;
+    margin-top: 40px;
+    padding-left: min(70px, 20%);
+    padding-right: min(70px, 20%);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu-quote>.text {
+    color: white;
+    font-weight: bold;
+    font-size: clamp(2.8rem, 3rem, 4.8rem);
+    max-width: 60%;
+    text-shadow: 2px 2px #9a2929;
+}
+
+.menu-quote>.photo {
+    width: 25vw;
+    height: 25vw;
+    flex-shrink: 0;
+}
+
+.menu-list {
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+    padding-bottom: 40px;
+    padding-top: 40px;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+.menu-entry {
+    background-color: #9f6564;
+    width: 300px;
+    height: 350px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    color: white;
+    margin-left:10%;
+    margin-right:10%;
+}
+
+.menu-entry>.photo {
+    align-self: center;
+    width: 75%;
+    height: auto;
+}
+
+.menu-entry>.name {
+    font-size: 2rem;
+    align-self: center;
+}
+
+ul {
+    margin-top: 10px;
+    align-self: flex-start;
+    list-style-type: none;
+    font-size: 1.2rem;
+}
+
+
+
+/* contact us page */
+
+.content.contact-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.logo-big {
+    height: 200px;
+    border:2px solid #9a2929;
+    border-radius: 50%;
+}
+
+.customer-perception {
+    font-size: 3rem;
+    text-shadow: 2px 2px #9a2929;
+
+}
+
+.bottom {
+
+    display: flex;
+    justify-content: center;
+}
+
+.contact-info {
+    padding: 0;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-shadow: 2px 2px #9a2929;
+}
